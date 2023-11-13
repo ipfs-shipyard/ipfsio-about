@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "fifth"
+title : "Contact Us"
+content: |
+  If you'd like to get in touch with us, we'd love to hear from you. You can reach us at #bifrost-community on the Filecoin Slack instance. Or via email at bifrost-community@ipfs-shipyard.org. On GitHub at https://github.com/ipfs-shipyard. On the IPFS discussion forums at https://discuss.ipfs.tech. 
+button: 
+  label: "Learn More"
+  link: "#fourth"
+image: "images/OIG.l8jl.jpeg"

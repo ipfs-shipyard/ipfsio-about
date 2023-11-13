@@ -1,6 +1,6 @@
 baseURL = "/"
 themesDir = "themes"
-theme = "hugo-serif-theme"
+theme = "hugo-story"
 languageCode = "en-us"
 title = "The IPFS Public Gateway"
 
@@ -53,19 +53,13 @@ title = "The IPFS Public Gateway"
   [params.footer]
     copyright_text = 'Free Hugo theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
 
+  [params.social]
+  github = "https://github.com/ipfs-shipyard"
+  twitter = "https://twitter.com/ipfs-shipyard"
+  email = "contact@ipfs-shipyard.org"
+
 [menu]
   # Main Menu
-  [[menu.main]]
-    name = "Services"
-    url = "/services/"
-    weight = 1
-
-  [[menu.main]]
-    name = "Documentation"
-    url = "/docs/"
-    weight = 2
-
-
   [[menu.main]]
     name = "About"
     url = "/about/"
