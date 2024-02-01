@@ -1,0 +1,14 @@
+<!-- Faqs -->
+<section class="wrapper style1">
+    <div class="inner">
+        {{ with .title }}<h2>{{ . }}</h2>{{ end }}
+        {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        <div class="content faqs">
+            <dl>
+            {{ range .items }}
+                {{ partial "faq" . }}
+            {{ end }}
+            </dl>
+        </div>
+    </div>
+</section>

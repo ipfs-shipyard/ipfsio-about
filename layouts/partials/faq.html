@@ -1,0 +1,7 @@
+<!-- Faq item -->
+<section>
+    <dt>{{ .name }}</dt>
+    <dd>
+        {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+    </dd>
+</section>

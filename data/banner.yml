@@ -1,0 +1,12 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "The IPFS Public Gateway"
+subtitle: |
+  Your Bridge to the Decentralized Web.
+content : |
+  We are enabling users like you to navigate through the decentralized web with unparalleled speed and security. As a conduit between the traditional web and the decentralized IPFS web, our gateway ensures that your journey through the boundless universe of decentralized data is not only seamless but also reliable and robust.
+button:
+  label : "Get Started"
+  link : "#first"
+image : "images/OIG.FZAB.jpeg"
+

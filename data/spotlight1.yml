@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title : "Public Utility"
+content: |
+  The IPFS Gateway is provided to the community as a free public utility to help people bridge the web2 and web3 chasm in a simple and painless way. It's probvided for free on a best effort basis, as such it is not intended to be part of your critical path or production infrastructure.
+button: 
+  label: "Learn More"
+  link: "#second"
+image: "images/OIG.fuGq.jpeg"

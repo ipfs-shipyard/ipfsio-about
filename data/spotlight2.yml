@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+title : "Fair Use Policy"
+id: "second"
+content: |
+  In order to provide the IPFS.io gateway service to the community, we need to ensure that bad actors can't abuse this service in such a way that makes it unsustainable to continue offering it. One such example of this is using the gateway for vast amounts of data, that quickly becomes costly and unsustainable. Another example is attempting to use the gateway to serve production workloads, which quickly becomes unsustainable and impacts the experience of other users.
+button: 
+  label: "Learn More"
+  link: "#fourth"
+image: "images/OIG.p4NG.jpeg"

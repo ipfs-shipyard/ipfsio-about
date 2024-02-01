@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "fifth"
+title : "Contact Us"
+content: |
+  If you'd like to get in touch with us, we'd love to hear from you. You can reach us at <a href="https://filecoinproject.slack.com/archives/C0573QZRETS" target="_blank">#waterworks-community</a> on the Filecoin Slack instance. On GitHub at <a href="https://github.com/ipshipyard/waterworks-community" target="_blank">ipshipyard/waterworks-community</a>. On the IPFS discussion forums at <a href="https://discuss.ipfs.tech" target="_blank">discuss.ipfs.tech</a>. 
+button: 
+  label: "Learn More"
+  link: "#fourth"
+image: "images/OIG.l8jl.jpeg"
