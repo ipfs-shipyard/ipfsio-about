@@ -4,10 +4,11 @@ content: |
 style: "style1 medium onscroll-fade-in"
 items:
   # faqs item
-  - name : "Do the gateways verify the data they return?"
-    content : "The gateways use <a href="https://github.com/ipfs/rainbow" target="_blank">Rainbow</a> to fetch data from IPFS, which means that data is verified before being returned to users."
+  - name: "Do the gateways verify the data they return?"
+    content: |
+      The gateways use <a href="https://github.com/ipfs/rainbow" target="_blank">Rainbow</a> to fetch data from IPFS, which means that data is verified before being returned to users.
     
   # faqs item
-  - name : "Can I access the gateways in a trustless way?"
-    content : "The gateways are provided as a HTTP compatibility layer, and don't currently implement any trustless access methods. That said, if you are interested in exploring this more, we would highly recommend you experiment with Helia, a JS IPFS implementation, to experiment with its support for trustless retrievals."
+  - name: "Can I access the gateways in a trustless way?"
+    content: "The gateways are provided as a HTTP compatibility layer, and don't currently implement any trustless access methods. That said, if you are interested in exploring this more, we would highly recommend you experiment with Helia, a JS IPFS implementation, to experiment with its support for trustless retrievals."
     
