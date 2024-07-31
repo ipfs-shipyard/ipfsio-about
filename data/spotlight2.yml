@@ -1,9 +1,21 @@
 ####################### Spotlight #########################
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-title : "Fair Use Policy"
+title : "Acceptable Use Policy"
 id: "second"
 content: |
-  In order to provide the IPFS.io gateway service to the community, we need to ensure that bad actors can't abuse this service in such a way that makes it unsustainable to continue offering it. One such example of this is using the gateway for vast amounts of data, that quickly becomes costly and unsustainable. Another example is attempting to use the gateway to serve production workloads, which quickly becomes unsustainable and impacts the experience of other users.
+  The IPFS.io public gateway allows people to access a wide variety of data, content, and materials (referred to as “Content”) uploaded to the IPFS network by third-parties. Please note that you will be solely responsible for the consequences of using, disclosing, storing, transferring, or transmitting this Content. 
+  
+  Any Content violating this Acceptable Use policy that is served through the IPFS.io public gateway may be immediately removed or disabled without any
+  compensation to you, such as by adding that Content's identifier to the <a href="https://badbits.dwebops.pub/" target="_blank>Bad Bits denylist</a>.
+
+  The following types of Content violate the Acceptable Use policy: 
+  <ul>
+    <li>scams, spam, and server misuse (such as viruses, phishing/spoofing content, or spam);</li>
+    <li>content infringing on the intellectual property, privacy, or publicity rights of others;</li>
+    <li>unlawful obscene content; content soliciting unlawful services; child sexual abuse material or terrorist content; or</li>
+    <li>content reasonably likely to cause or increase the risk of harm to any people/groups.</li>
+  </ul>
+
 button: 
   label: "Learn More"
   link: "#fourth"

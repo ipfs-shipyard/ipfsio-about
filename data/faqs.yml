@@ -3,12 +3,39 @@ content: |
   Below you can find answers to the most frequently asked questions.
 style: "style1 medium onscroll-fade-in"
 items:
-  # faqs item
-  - name: "Do the gateways verify the data they return?"
+  - name: "How do the ipfs.io/dweb.link gateways work?"
     content: |
-      The gateways use <a href="https://github.com/ipfs/rainbow" target="_blank">Rainbow</a> to fetch data from IPFS, which means that data is verified before being returned to users.
+    The ipfs.io gateway runs <a href="https://github.com/ipfs/rainbow" target="_blank">Rainbow</a>,
+    an implementation of the <a href="https://specs.ipfs.tech/http-gateways" target="_blank">IPFS HTTP Gateway API</a>,
+    to find, retrieve, and serve data. It listens for requests for IPFS content, retrieves
+    that content via IPFS, and makes it available to the requester via HTTP. Read the IPFS docs
+    to learn more about <a href="https://docs.ipfs.tech/concepts/ipfs-gateway/" target="_blank">IPFS Gateways</a>
+    or other <a href="https://docs.ipfs.tech/concepts/public-utilities/#public-ipfs-gateways" target="_blank">Public IPFS Utilities</a>.     
+  - name: "I'm trying to use the gateway but something is not working, who should I talk to?"
+    content: |
+    The best way to get support is to describe your issue clearly and in sufficient detail on the
+    <a href="https://discuss.ipfs.tech/" target="_blank">IPFS Forum</a>.     
+  - name: "How are these gateways funded? Who is behind this?"
+    content: |
+    The ipfs.io/dweb.link public gateways are maintained by Interplanetary Shipyard
+    on behalf of the IPFS Foundation. The funds are contributed by a range of donors
+    who wish to support digital public infrastructure.
+    <a href="mailto:info@ipfs.io" target="_blank">Join them, all contributions are welcome!</a>
+  - name: "What's the relationship between gateways and other IPFS instances?"
+    content: |
+    Running IPFS directly is more efficient, but not all applications or websites support it today.
+    Gateways are an interim solution. Longer term, the IPFS project aims to increase direct support for
+    ipfs:// in browsers and applications.
+    There will always be a role for gateways, but we anticipate that role will shrink as direct
+    IPFS support becomes more prevalent.
+  - name: "How does the gateway <a href=https://docs.ipfs.tech/reference/http/gateway/#trustless-verifiable-retrieval" target="_blank">ensure</a> whether the data they return matches the Content ID (CID) in the request? Can I access the gateways in a trustless way?"
+    content: |
+    The ipfs.io gateway is one of the first that verifies the data against the requested CID before being
+    returned to users. We do however recommend that clients implement their own verification as that is a
+    foundational part of IPFS. To simplify this, gateways support
+    <a href="https://specs.ipfs.tech/http-gateways/trustless-gateway/#accept-request-header" target="_blank">trustless content types</a>
+    that enable <a href="https://docs.ipfs.tech/reference/http/gateway/#trustless-verifiable-retrieval" target="_blank">verifiable retrieval</a>.
+    This requires an explicit opt-in from the client at the time of the request.
     
-  # faqs item
-  - name: "Can I access the gateways in a trustless way?"
-    content: "The gateways are provided as a HTTP compatibility layer, and don't currently implement any trustless access methods. That said, if you are interested in exploring this more, we would highly recommend you experiment with Helia, a JS IPFS implementation, to experiment with its support for trustless retrievals."
-    
+    If you are interested in exploring this more, we recommend you experiment with
+    <a href="https://helia.io/" target="_blank">Helia</a>, a JS IPFS implementation that supports trustless retrievals.

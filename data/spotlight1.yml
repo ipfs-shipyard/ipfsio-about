@@ -3,7 +3,13 @@ style: "style1 orient-right content-align-left image-position-center onscroll-im
 id: "first"
 title : "Public Utility"
 content: |
-  The IPFS Gateway is provided to the community as a free public utility to help people bridge the web2 and web3 chasm in a simple and painless way. It's probvided for free on a best effort basis, as such it is not intended to be part of your critical path or production infrastructure.
+An IPFS gateway acts as a bridge between the traditional web protocol (HTTP) and the IPFS protocol.
+It listens for requests for IPFS content, retrieves that content via IPFS, and makes it available via HTTP.
+This allows anyone to access content from public IPFS networks, no matter what web browser they're using.
+
+The IPFS.io public gateway is provided for free on an as-is basis, and not intended to be part of your
+critical path or production infrastructure. The features it supports are listed at here (https://docs.ipfs.tech/concepts/public-utilities/#supported-features).
+It is one of several <a href="https://ipfs.github.io/public-gateway-checker/" target="_blank">public IPFS gateways</a>.
 button: 
   label: "Learn More"
   link: "#second"
