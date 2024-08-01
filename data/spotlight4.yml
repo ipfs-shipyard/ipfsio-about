@@ -1,9 +1,9 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
 title : "Reporting Abuse"
-id: "fourth"
+id: "reporting-abuse"
 content: |
-  To report abuse or submit a takedown request, email abuse@ipfs.io. Your email should include the relevant CID or URL,
+  To report abuse or submit a takedown request, email <a href="mailto:abuse@ipfs.io" target="_blank">abuse@ipfs.io</a>. Your email should include the relevant CID or URL,
   and the reason for your report or request. For copyright-related requests, please include all of
   <a href="https://copyrightalliance.org/education/copyright-law-explained/the-digital-millennium-copyright-act-dmca/write-dmca-takedown-notice/" target="_blank">the required details for a DMCA takedown request.</a>
   
@@ -18,5 +18,5 @@ content: |
   such as cURL or wget.
 button: 
   label: "Learn More"
-  link: "#fifth"
+  link: "#contact-us"
 image: "images/OIG.8bG8.jpeg"

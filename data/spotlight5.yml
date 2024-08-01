@@ -1,14 +1,14 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
-id: "fifth"
+id: "contact-us"
 title : "Contact Us"
 content: |
   For abuse and DMCA related inquiries, please see the Reporting Abuse section above.
   
   If you would like to run your own gateway, please see <a href="https://docs.ipfs.tech/how-to/gateway-best-practices/#self-hosting-a-gateway" target="_blank">Self Hosting a Gateway</a> in the IPFS Docs and get in touch with any questions.
   
-  The ipfs.io public gateway is maintained by Interplanetary Shipyard on behalf of the IPFS Foundation. You can reach us at <a href="https://filecoinproject.slack.com/archives/C0573QZRETS" target="_blank">#waterworks-community</a> on Filecoin Slack, on GitHub at <a href"https://github.com/ipshipyard/waterworks-community" target="_blank">ipshipyard/waterworks-community</a>, and on the IPFS discussion forums at <a href="https://discuss.ipfs.tech/" target="_blank">discuss.ipfs.tech</a>.
+  The ipfs.io public gateway is maintained by Interplanetary Shipyard on behalf of the IPFS Foundation. You can reach us at <a href="https://filecoinproject.slack.com/archives/C0573QZRETS" target="_blank">#waterworks-community</a> on Filecoin Slack, on GitHub at <a href="https://github.com/ipshipyard/waterworks-community" target="_blank">ipshipyard/waterworks-community</a>, and on the IPFS discussion forums at <a href="https://discuss.ipfs.tech/" target="_blank">discuss.ipfs.tech</a>.
 button: 
   label: "Learn More"
-  link: "#fourth"
+  link: "#reporting-abuse"
 image: "images/OIG.l8jl.jpeg"

@@ -1,7 +1,7 @@
 ####################### Spotlight #########################
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
 title : "Acceptable Use Policy"
-id: "second"
+id: "acceptable-use"
 content: |
   The IPFS.io public gateway allows people to access a wide variety of data, content, and materials (referred to as “Content”) uploaded to the IPFS network by third-parties. Please note that you will be solely responsible for the consequences of using, disclosing, storing, transferring, or transmitting this Content. 
   
@@ -18,5 +18,5 @@ content: |
 
 button: 
   label: "Learn More"
-  link: "#fourth"
+  link: "#reporting-abuse"
 image: "images/OIG.p4NG.jpeg"

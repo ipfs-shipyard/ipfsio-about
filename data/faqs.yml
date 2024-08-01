@@ -29,7 +29,7 @@ items:
       There will always be a role for gateways, but we anticipate that role will shrink as direct
       IPFS support becomes more prevalent.
   - name: |
-      How does the gateway <a href=https://docs.ipfs.tech/reference/http/gateway/#trustless-verifiable-retrieval" target="_blank">ensure</a> whether the data they return matches the Content ID (CID) in the request? Can I access the gateways in a trustless way?
+      How does the gateway ensure whether the data they return matches the Content ID (CID) in the request? Can I access the gateways in a trustless way?
     content: |
       The ipfs.io gateway is one of the first that verifies the data against the requested CID before being
       returned to users. We do however recommend that clients implement their own verification as that is a
