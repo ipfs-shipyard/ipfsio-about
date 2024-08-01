@@ -1,6 +1,6 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
-id: "first"
+id: "public-utility"
 title : "Public Utility"
 content: |
   An IPFS gateway acts as a bridge between the traditional web protocol (HTTP) and the IPFS protocol.
@@ -12,5 +12,5 @@ content: |
   It is one of several <a href="https://ipfs.github.io/public-gateway-checker/" target="_blank">public IPFS gateways</a>.
 button: 
   label: "Learn More"
-  link: "#second"
+  link: "#acceptable-use"
 image: "images/OIG.fuGq.jpeg"
