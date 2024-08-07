@@ -1,4 +1,5 @@
 title : "Frequently Asked Questions"
+id: "faqs"
 content: |
   Below you can find answers to the most frequently asked questions.
 style: "style1 medium onscroll-fade-in"
@@ -40,3 +41,6 @@ items:
     
       If you are interested in exploring this more, we recommend you experiment with
       <a href="https://helia.io/" target="_blank">Helia</a>, a JS IPFS implementation that supports trustless retrievals.
+button:
+  label: "Learn More"
+  link: "#contact-us"
