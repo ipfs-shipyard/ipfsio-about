@@ -1,5 +1,5 @@
 <!-- Banner -->
-<section class="banner {{ .style }}">
+<section class="banner {{ .style }}"{{ with .id }} id="{{ . }}"{{ end }}>
     <div class="content">
         {{ with .title }}<h1>{{ . }}</h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}

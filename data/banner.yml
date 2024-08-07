@@ -1,6 +1,7 @@
 ####################### Banner #########################
 style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
 title : "The IPFS Public Gateway"
+id: "start"
 subtitle: |
   Your Bridge to the Decentralized Web.
 content : |
