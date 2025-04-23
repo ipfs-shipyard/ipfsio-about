@@ -12,19 +12,22 @@ items:
       that content via IPFS, and makes it available to the requester via HTTP. Read the IPFS docs
       to learn more about <a href="https://docs.ipfs.tech/concepts/ipfs-gateway/" target="_blank">IPFS Gateways</a>
       or other <a href="https://docs.ipfs.tech/concepts/public-utilities/#public-ipfs-gateways" target="_blank">Public IPFS Utilities</a>.     
-  - name: "I'm trying to use the gateway but something is not working, who should I talk to?"
+  - name: "Why am I getting a full response instead of streaming a large video or using an HTTP Range request?"
+    content: |
+      HTTP Range requests are limited to files up to 5GiB due to Cloudflare CDN restrictions. For files larger than this, you'll receive a standard HTTP 200 response instead.
+  - name: "I'm trying to use the gateway but something else is not working, who should I talk to?"
     content: |
       The best way to get support is to describe your issue clearly and in sufficient detail on the
       <a href="https://discuss.ipfs.tech/" target="_blank">IPFS Forum</a>.     
   - name: "How are these gateways funded? Who is behind this?"
     content: |
-      The ipfs.io/dweb.link public gateways are maintained by Interplanetary Shipyard
+      The ipfs.io/dweb.link public gateways are maintained by <a href="https://ipshipyard.com/" target="_blank">Interplanetary Shipyard</a>
       on behalf of the IPFS Foundation. The funds are contributed by a range of donors
       who wish to support digital public infrastructure.
       <a href="mailto:info@ipfs.io" target="_blank">Join them, all contributions are welcome!</a>
   - name: "What's the relationship between gateways and other IPFS instances?"
     content: |
-      Running IPFS directly is more efficient, but not all applications or websites support it today.
+      <a href="https://docs.ipfs.tech/install/">Running IPFS directly</a> is more efficient, but not all users are able to do it today.
       Gateways are an interim solution. Longer term, the IPFS project aims to increase direct support for
       ipfs:// in browsers and applications.
       There will always be a role for gateways, but we anticipate that role will shrink as direct
@@ -40,6 +43,7 @@ items:
       This requires an explicit opt-in from the client at the time of the request.
     
       If you are interested in exploring this more, we recommend you experiment with
+      <a href="https://inbrowser.link/" target="_blank">inbrowser.link</a>, a Service Worker gateway built with
       <a href="https://helia.io/" target="_blank">Helia</a>, a JS IPFS implementation that supports trustless retrievals.
 button:
   label: "Learn More"
