@@ -1,9 +1,25 @@
 <head>
-	<title>{{ .Site.Title }}</title>
+	<title>About the IPFS.io Public Gateway</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="IPFS.io Public Gateway - Free public service to access IPFS content through your web browser. Bridge between HTTP and decentralized IPFS protocol without installing software.">
+	<meta name="author" content="IPFS Foundation">
+	<meta name="keywords" content="IPFS, gateway, decentralized web, content addressing, dweb">
+	
+	<!-- Open Graph Meta Tags -->
+	<meta property="og:title" content="About the IPFS.io Public Gateway">
+	<meta property="og:description" content="IPFS.io Public Gateway - Free public service to access IPFS content through your web browser. Bridge between HTTP and decentralized IPFS protocol without installing software.">
+	<meta property="og:image" content="/images/OIG.FZAB.jpeg">
+	<meta property="og:url" content="{{ .Site.BaseURL }}">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="About IPFS.io Gateway">
+	
+	<!-- Twitter Card Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="About the IPFS.io Public Gateway">
+	<meta name="twitter:description" content="IPFS.io Public Gateway - Free public service to access IPFS content through your web browser. Bridge between HTTP and decentralized IPFS protocol without installing software.">
+	<meta name="twitter:image" content="/images/OIG.FZAB.jpeg">
+	<meta name="twitter:site" content="@IPFS">
 	{{ if .Site.Params.favicon }}
 	{{ partial "favicon" }}
 	{{ end }}
