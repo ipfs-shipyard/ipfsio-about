@@ -1,0 +1,18 @@
+####################### Disclaimer #########################
+style: "wrapper style2 align-center"
+id: "disclaimer"
+content : |
+  <div class="disclaimer-notice">
+    <p><strong>Looking for the IPFS Project?</strong> This is the ipfs.<u>io</u> public gateway. The IPFS Project website is at <a href="https://ipfs.tech" target="_blank">ipfs.<u>tech</u></a></p>
+  </div>
+buttons:
+  - label: "About ipfs.<u>io</u> Gateway"
+    link: "#start"
+    class: "button primary"
+  - label: "Report Abuse"
+    link: "#reporting-abuse"
+    class: "button"
+  - label: "Go to ipfs.<u>tech</u>"
+    link: "https://ipfs.tech"
+    target: "_blank"
+    class: "button"

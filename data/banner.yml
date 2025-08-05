@@ -1,11 +1,11 @@
 ####################### Banner #########################
 style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
-title : "The IPFS Public Gateway"
+title : "IPFS.<u>io</u> Public Gateway"
 id: "start"
 subtitle: |
-  Your Bridge to the Decentralized Web.
+  A Public Good for Accessing the Decentralized Web
 content : |
-  We are enabling users like you to navigate through the decentralized web with unparalleled speed and security. As a conduit between the traditional web and the decentralized IPFS web, our gateway ensures that your journey through the boundless universe of decentralized data is not only seamless but also reliable and robust.
+  The ipfs.<u>io</u> gateway is a free public service that enables anyone to access content from the IPFS network through their web browser. As a bridge between the traditional web (HTTP) and the decentralized IPFS protocol, this gateway allows you to retrieve and view content stored on IPFS without installing any special software.
 button:
   label : "Get Started"
   link : "#public-utility"

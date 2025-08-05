@@ -3,7 +3,7 @@ style: "style1 orient-right content-align-left image-position-center onscroll-im
 id: "contact-us"
 title : "Contact Us"
 content: |
-  For abuse and DMCA related inquiries, please see the Reporting Abuse section above.
+  For abuse and DMCA related inquiries, please see the <a href="#reporting-abuse">Reporting Abuse</a> section above.
   
   If you would like to run your own gateway, please see <a href="https://docs.ipfs.tech/how-to/gateway-best-practices/#self-hosting-a-gateway" target="_blank">Self Hosting a Gateway</a> in the IPFS Docs and get in touch with any questions.
   

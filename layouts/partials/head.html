@@ -24,9 +24,4 @@
 	<noscript><link rel="stylesheet" href="{{ ($noscript | minify).RelPermalink }}" /></noscript>
 	{{end}}
 
-	<!-- FontAwesome CSS -->
-	{{ range .Site.Params.asset.fontawesome_css -}}
-		<link rel="stylesheet" href="{{ . | absURL }}">
-	{{- end }}
-
 </head>

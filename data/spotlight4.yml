@@ -3,7 +3,9 @@ style: "style1 orient-right content-align-left image-position-center onscroll-im
 title : "Reporting Abuse"
 id: "reporting-abuse"
 content: |
-  To report abuse or submit a takedown request, email <a href="mailto:abuse@ipfs.io" target="_blank">abuse@ipfs.io</a>. Your email should include the relevant CID or URL,
+  <p><strong>To report abuse or submit a takedown request on <u>ipfs.io</u> or <u>dweb.link</u> gateways, email <a href="mailto:abuse@ipfs.io" target="_blank">abuse@ipfs.io</a>.</strong></p>
+  
+  Your email should include the relevant CID or URL,
   and the reason for your report or request. For copyright-related requests, please include all of
   <a href="https://copyrightalliance.org/education/copyright-law-explained/the-digital-millennium-copyright-act-dmca/write-dmca-takedown-notice/" target="_blank">the required details for a DMCA takedown request.</a>
   
@@ -11,7 +13,7 @@ content: |
   determine appropriate next steps based on the Acceptable Use policy above.
   
   If the takedown team decides to issue a takedown based on the Acceptable Use policy, the relevant information from the request will be added to the
-  denylist at https://badbits.dwebops.pub/. The gateways will return a 410 error when users try to fetch the content in question.
+  denylist at <a href="https://badbits.dwebops.pub/" target="_blank">https://badbits.dwebops.pub/</a>. The gateways will return a 410 error when users try to fetch the content in question.
   
   Your browser may have a local cache of the content in question and might not immediately reflect that something has been blocked on the gateways.
   To avoid browser caching, switch to your browser's incognito or private mode. You can also prevent caching issues by using a command-line tool
