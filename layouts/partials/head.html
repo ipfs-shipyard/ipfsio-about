@@ -5,25 +5,28 @@
 	<meta name="description" content="IPFS.io Public Gateway - Free public service to access IPFS content through your web browser. Bridge between HTTP and decentralized IPFS protocol without installing software.">
 	<meta name="author" content="IPFS Foundation">
 	<meta name="keywords" content="IPFS, gateway, decentralized web, content addressing, dweb">
-	
+
+	<!-- Canonical Link -->
+	<link rel="canonical" href="{{ .Site.BaseURL }}">
+
 	<!-- Open Graph Meta Tags -->
 	<meta property="og:title" content="About the IPFS.io Public Gateway">
 	<meta property="og:description" content="IPFS.io Public Gateway - Free public service to access IPFS content through your web browser. Bridge between HTTP and decentralized IPFS protocol without installing software.">
-	<meta property="og:image" content="/images/OIG.FZAB.jpeg">
+	<meta property="og:image" content="{{ .Site.BaseURL }}images/OIG.FZAB.jpeg">
 	<meta property="og:url" content="{{ .Site.BaseURL }}">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="About IPFS.io Gateway">
-	
+
 	<!-- Twitter Card Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="About the IPFS.io Public Gateway">
 	<meta name="twitter:description" content="IPFS.io Public Gateway - Free public service to access IPFS content through your web browser. Bridge between HTTP and decentralized IPFS protocol without installing software.">
-	<meta name="twitter:image" content="/images/OIG.FZAB.jpeg">
+	<meta name="twitter:image" content="{{ .Site.BaseURL }}images/OIG.FZAB.jpeg">
 	<meta name="twitter:site" content="@IPFS">
 	{{ if .Site.Params.favicon }}
 	{{ partial "favicon" }}
 	{{ end }}
-	
+
 	<!-- CSS -->
 	{{ if .Site.IsServer }}
 	{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
