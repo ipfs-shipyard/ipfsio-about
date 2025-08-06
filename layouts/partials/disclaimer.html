@@ -1,0 +1,13 @@
+<!-- Disclaimer -->
+<section class="{{ .style }}"{{ with .id }} id="{{ . }}"{{ end }}>
+    <div class="inner">
+        {{ with .content }}<div class="content">{{ . | safeHTML }}</div>{{ end }}
+        {{ with .buttons }}
+        <ul class="actions">
+            {{ range . }}
+            <li><a href="{{ .link }}" class="{{ .class }}"{{ with .target }} target="{{ . }}"{{ end }}>{{ .label | safeHTML }}</a></li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </div>
+</section>

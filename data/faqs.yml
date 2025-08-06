@@ -45,6 +45,12 @@ items:
       If you are interested in exploring this more, we recommend you experiment with
       <a href="https://inbrowser.link/" target="_blank">inbrowser.link</a>, a Service Worker gateway built with
       <a href="https://helia.io/" target="_blank">Helia</a>, a JS IPFS implementation that supports trustless retrievals.
+  - name: "How do I report abuse (phishing, illegal content, DMCA) on ipfs.io and dweb.link?"
+    content: |
+      To report abuse or submit a takedown request, please see the <a href="#reporting-abuse">Reporting Abuse</a> section below for detailed instructions on how to contact us with your report.
+  - name: "How do I report abuse (phishing, illegal content, DMCA) on other gateways?"
+    content: |
+      Our takedown policy is only effective for removing content from the IPFS.<u>io</u> Gateway Service operated by the IPFS team (<u>ipfs.io</u> & <u>dweb.link</u>). While a properly-configured gateway running our open-source code will also take down anything we have actioned, we cannot guarantee that all other public gateways will be or remain properly configured. To report abuse on different domains, please contact <a href="https://whois.domaintools.com/" target="_blank">their respective owners</a>.
 button:
   label: "Learn More"
   link: "#contact-us"

@@ -1,0 +1,138 @@
+/*
+	Custom styles for ipfs.io landing page
+*/
+
+/* Subtle underlines for domain distinctions */
+u {
+    text-decoration: none;
+    border-bottom: 1px solid #666;
+    padding-bottom: 1px;
+}
+
+/* External link indicators for all external links */
+a[target="_blank"]:after {
+    content: " ↗";
+    font-size: 0.9em;
+    opacity: 0.7;
+    white-space: nowrap;
+}
+
+/* Ensure external links don't break between text and arrow */
+a[target="_blank"] {
+    white-space: nowrap;
+}
+
+/* Disclaimer section styling */
+#disclaimer {
+    background: #f8f9fa;
+    border-bottom: 2px solid #e9ecef;
+    margin: 0;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+
+    &.wrapper.style2 {
+        padding: 0 !important;
+    }
+
+    .inner {
+        padding-top: 1rem !important;
+        padding-bottom: 0.5rem !important;
+        max-width: none !important;
+        width: 100% !important;
+    }
+
+    .disclaimer-notice {
+        background: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        padding: 1rem 1.5rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+
+        p {
+            margin: 0;
+            font-size: 1.1rem;
+        }
+
+        strong {
+            color: #333;
+        }
+
+        a[target="_blank"] {
+            font-weight: normal;
+            text-decoration: none;
+            color: inherit;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .actions {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 0.5rem !important;
+
+        li {
+            margin: 0;
+        }
+    }
+
+    .button {
+        min-width: 180px;
+        text-align: center;
+
+        u {
+            border-bottom: 1px solid #666;
+        }
+
+        &.primary u {
+            border-bottom: 1px solid #666;
+        }
+
+        &[href*="abuse"] {
+            background-color: #e9ecef;
+            box-shadow: inset 0 0 0 2px #dee2e6;
+            color: #495057;
+
+            &:hover {
+                background-color: #dee2e6;
+                color: #212529;
+            }
+        }
+    }
+
+    // Mobile override to remove excessive padding
+    @include breakpoint('<=xsmall') {
+        ul.actions:not(.fixed) li {
+            padding: 0 0 0 0 !important;
+        }
+    }
+}
+
+/* Make the banner section shorter */
+.banner.fullscreen {
+    min-height: 60vh !important;
+
+    @include breakpoint('<=small') {
+        min-height: 50vh !important;
+    }
+}
+
+/* Responsive adjustments */
+@include breakpoint('<=small') {
+    #disclaimer .actions {
+        flex-direction: column;
+    }
+    
+    #disclaimer .button {
+        width: 100%;
+        max-width: 300px;
+    }
+}

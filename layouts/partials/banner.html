@@ -1,7 +1,7 @@
 <!-- Banner -->
 <section class="banner {{ .style }}"{{ with .id }} id="{{ . }}"{{ end }}>
     <div class="content">
-        {{ with .title }}<h1>{{ . }}</h1>{{ end }}
+        {{ with .title }}<h1>{{ . | safeHTML }}</h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         {{ with .button }}<ul class="actions stacked">
@@ -9,6 +9,6 @@
         </ul>{{ end }}
     </div>
     {{ with .image }}<div class="image">
-        <img src="{{.}}" alt="Hugo Story" />
+        <img src="{{.}}" alt="IPFS Gateway illustration showing decentralized web connectivity" />
     </div>{{end}}
 </section>

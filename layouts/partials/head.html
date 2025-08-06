@@ -2,12 +2,31 @@
 	<title>{{ .Site.Title }}</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="{{ .Site.Params.description }}">
+	<meta name="author" content="IPFS Foundation">
+	<meta name="keywords" content="IPFS, gateway, decentralized web, content addressing, dweb">
+
+	<!-- Canonical Link -->
+	<link rel="canonical" href="https://about.ipfs.io{{ .Permalink }}">
+
+	<!-- Open Graph Meta Tags -->
+	<meta property="og:title" content="{{ .Site.Title }}">
+	<meta property="og:description" content="{{ .Site.Params.description }}">
+	<meta property="og:image" content="https://about.ipfs.io/images/OIG.FZAB.jpeg">
+	<meta property="og:url" content="https://about.ipfs.io{{ .Permalink }}">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="IPFS.io Gateway">
+
+	<!-- Twitter Card Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="{{ .Site.Title }}">
+	<meta name="twitter:description" content="{{ .Site.Params.description }}">
+	<meta name="twitter:image" content="https://about.ipfs.io/images/OIG.FZAB.jpeg">
+	<meta name="twitter:site" content="@IPFS">
 	{{ if .Site.Params.favicon }}
 	{{ partial "favicon" }}
 	{{ end }}
-	
+
 	<!-- CSS -->
 	{{ if .Site.IsServer }}
 	{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
@@ -23,10 +42,5 @@
 	{{ $noscript := resources.Get "sass/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "css/noscript.css" "enableSourceMap" false) }}
 	<noscript><link rel="stylesheet" href="{{ ($noscript | minify).RelPermalink }}" /></noscript>
 	{{end}}
-
-	<!-- FontAwesome CSS -->
-	{{ range .Site.Params.asset.fontawesome_css -}}
-		<link rel="stylesheet" href="{{ . | absURL }}">
-	{{- end }}
 
 </head>
