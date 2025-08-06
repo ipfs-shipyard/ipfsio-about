@@ -15,7 +15,7 @@ copyright = "{year}"
   favicon = "favicon-32x32.svg"
 
   [params.social]
-  github = "https://github.com/ipfs-shipyard"
-  twitter = "https://twitter.com/ipfs-shipyard"
-  linkedin = "https://www.linkedin.com/company/interplanetary-shipyard/"
-  email = "contact@ipshipyard.org"
+  github = "https://github.com/ipshipyard"
+  twitter = "https://x.com/ipshipyard"
+  linkedin = "https://www.linkedin.com/company/ipshipyard/"
+  email = "contact@ipshipyard.com"
