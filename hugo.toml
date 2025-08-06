@@ -13,3 +13,9 @@ copyright = "{year}"
 [params]
   description = "IPFS.io Public Gateway - Free public service to access IPFS content through your web browser. Bridge between HTTP and decentralized IPFS protocol without installing software."
   favicon = "favicon-32x32.svg"
+
+  [params.social]
+  github = "https://github.com/ipfs-shipyard"
+  twitter = "https://twitter.com/ipfs-shipyard"
+  linkedin = "https://www.linkedin.com/company/interplanetary-shipyard/"
+  email = "contact@ipshipyard.org"
