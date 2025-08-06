@@ -1,4 +1,4 @@
-baseURL = "https://about.ipfs.io/"
+baseURL = "/"
 themesDir = "themes"
 theme = "hugo-story"
 languageCode = "en-us"
@@ -11,4 +11,5 @@ copyright = "{year}"
     min = "0.124.1"
 
 [params]
+  description = "IPFS.io Public Gateway - Free public service to access IPFS content through your web browser. Bridge between HTTP and decentralized IPFS protocol without installing software."
   favicon = "favicon-32x32.svg"

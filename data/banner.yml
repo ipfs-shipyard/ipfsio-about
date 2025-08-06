@@ -5,7 +5,7 @@ id: "start"
 subtitle: |
   A Public Good for Accessing the Decentralized Web
 content : |
-  The ipfs.<u>io</u> gateway is a free public service that enables anyone to access content from the IPFS network through their web browser. As a bridge between the traditional web (HTTP) and the decentralized IPFS protocol, this gateway allows you to retrieve and view content stored on IPFS without installing any special software.
+  We are enabling users like you to navigate through the decentralized web with unparalleled speed and security. As a conduit between the traditional web and the decentralized IPFS web, our gateway ensures that your journey through the boundless universe of decentralized data is not only seamless but also reliable and robust.
 button:
   label : "Get Started"
   link : "#public-utility"
