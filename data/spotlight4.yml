@@ -3,9 +3,9 @@ style: "style1 orient-right content-align-left image-position-center onscroll-im
 title : "Reporting Abuse"
 id: "reporting-abuse"
 content: |
-  <p><strong>To report abuse or submit a takedown request on <u>ipfs.io</u> or <u>dweb.link</u> gateways, email <a href="mailto:abuse@ipfs.io" target="_blank">abuse@ipfs.io</a>.</strong></p>
-  
-  Your email should include the relevant CID or URL,
+  <p><strong>To report abuse or submit a takedown request on <u>ipfs.io</u> or <u>dweb.link</u> gateways, use the <a href="https://ipfs.fyi/report-abuse" target="_blank">web form</a> or email <a href="mailto:abuse@ipfs.io" target="_blank">abuse@ipfs.io</a>.</strong></p>
+
+  Your submission should include the relevant CID or URL,
   and the reason for your report or request. For copyright-related requests, please include all of
   <a href="https://copyrightalliance.org/education/copyright-law-explained/the-digital-millennium-copyright-act-dmca/write-dmca-takedown-notice/" target="_blank">the required details for a DMCA takedown request.</a>
   
